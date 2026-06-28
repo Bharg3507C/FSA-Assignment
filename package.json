@@ -3,18 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-"scripts": {
-  "dev": "cd my-app && npm run dev",
-  "build": "cd my-app && npm run build",
-  "lint": "cd my-app && npm run lint",
-  "preview": "cd my-app && npm run preview",
-  "start": "node server.js"
-},
+  "scripts": {
+    "dev": "cd my-app && npm run dev",
+    "build": "cd my-app && npm run build",
+    "lint": "cd my-app && npm run lint",
+    "preview": "cd my-app && npm run preview",
+    "start": "node server.js"
+  },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "requests": "^0.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
