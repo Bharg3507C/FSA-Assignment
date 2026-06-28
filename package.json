@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "cd my-app && npm run dev",
+    "build": "cd my-app && npm run build",
+    "lint": "cd my-app && npm run lint",
+    "preview": "cd my-app && npm run preview"
   },
   "dependencies": {
     "react": "^19.2.6",
